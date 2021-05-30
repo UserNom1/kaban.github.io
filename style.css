@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&family=Squada+One&display=swap');
+
+h1 {
+    font-family: 'Sigmar One', cursive;
+}
+
+@media (min-width:400px) and (max-width:700px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    section main p {
+        font-size: 20px;
+    }
+
+    .verycherry  {
+        max-width: 300px;;
+    }
+}
+
+@media (min-width:700px) {
+    h1 {
+        font-size: 56px;
+    }
+
+    section main p {
+        font-size: 25px;
+    }
+
+    .opo p {
+        font-size: 25px;
+    }
+    
+}
+
+.opo .img {
+    max-width: 75%;
+}
+
+.opo .verycherry {
+    max-width: 50%;
+}
+
+.img , .verycherry {
+    transition: 1s;
+}
+
+.img:hover, .verycherry:hover {
+    transform: scale(1.2);
+}
+
+section main p a:hover {
+    color: royalblue;
+    text-decoration: overline underline;
+    background-color: rgba(208, 248, 223, 0.404);
+}
+
+p {
+    font-family: 'Squada One', cursive;
+}
+
+body {
+    margin: 1;
+}
+
+nav {
+    margin: 0 0;
+    background-color: #a0877f;
+}
+
+nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+    }
+
+nav ul li {
+    margin: 0px -7px 0 0;
+    display:inline-block;
+    background-color: #a0877f;
+    }
+
+nav a {
+    display:block;
+    padding:0 10px;
+    color:#FFF;
+    font-size:20px;
+    line-height: 60px;
+    text-decoration:none;
+}
+
+nav a:hover {
+    background-color: #000000;
+}
+
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+nav ul li:hover > ul {
+    display:inherit;
+}
+
+nav ul ul li {
+    min-width:170px;
+    float:none;
+    display:list-item;
+    position: relative;
+}
+
+p a {
+    text-decoration: none;
+    color: #2293Ac;
+}
+
+footer {
+    margin: 0 0;
+    background-color: #a0877f;
+    min-height: 50px;
+    color: white;
+}
